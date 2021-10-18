@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Khand&display=swap');
+html,
+body {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+section {
+    padding: 45px 0;
+}
+
+/*header slider start*/
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Khand', sans-serif;
+    color: #fff !important;
+}
+.navbar-brand p{
+    font-size: 0.84rem;
+    margin-top: -5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.3);
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
+    padding: 0 15px;
+}
+.nav-item a{
+    color: #fff !important;
+}
+.navbar-nav .nav-link.active {
+    background: #2689BC !important;
+}
+.nav-item:hover{
+    background-color: #2689BC;
+}
+.header {
+    background: rgba(0,0,0,0.7);
+    box-shadow: 3px 0 5px 3px #2689BC;
+}
+
+.optin {
+    padding-top: 100px;
+    background-image: url(../images/banner/architecture-3121009_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.optin:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(5, 127, 76, 0.90);
+}
+
+.subs {
+    padding: 50px 0 0px 40px;
+}
+
+.subs h2 {
+    font-weight: bold;
+}
+
+.subs h3 {}
+
+.subs h4 {
+    color: #111;
+}
+
+.subs ul {
+    padding: 30px 10px;
+}
+
+.subs-form {
+    background: rgba(35,160,95,0.7);
+    padding: 20px 15px;
+    color: #fff;
+}
+
+.form-group {
+    padding: 0 0;
+}
+
+.btn-custom {
+    background: aqua;
+    float: left;
+}
+
+.btn-custom2 {
+    background: #0e092b;
+    color: #fff;
+}
+
+.subs-form button:hover {
+    color: #eee;
+    background-color: crimson;
+}
+
+.btn-custom2 h4 {
+    margin-top: 10px;
+}
+
+
+/*header slider end*/
+a .card{
+    color: #000;
+}
+.package a:hover {
+    text-decoration: none;
+}
+.card{
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+}
+.card-body{
+    padding: 0;
+    position: relative;
+}
+.card-footer{
+    text-align: left;
+}
+.off {
+    position: absolute;
+    top: 13px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.9), rgba(0,0,0,0.3));
+    color: #fff;
+    padding: 3px 11px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.off i {
+    color: #FFCB00;
+}
+
+.couple {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FF8A00;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}
+.couple h5 {
+    font-size: 14px;
+    margin: 0;
+    text-decoration: line-through;
+}
+
+.couple h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.couple p {
+    text-transform: uppercase;
+    font-size: 8px;
+    margin: 0;
+}
+
+
+
+.package {
+    text-align: center;
+    position: relative;
+}
+
+
+
+.resort {
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(0,0,0,0.5));
+    color: #fff;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px 0 10px 15px;
+}
+
+.resort h5 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.resort h6 {
+    font-size: 12px;
+    text-align: left;
+}
+
+.down {
+    position: absolute;
+    background-color: #2689BC;
+    height: 100%;
+    color: #fff;
+    bottom: 0px;
+    right: 0;
+    padding: 3px 11px;
+    text-align: center;
+}
+
+.down h5 {
+    font-size: 20px;
+}
+
+.down h5 span {
+    display: block; 
+    font-size: 12px;
+}
+.card-footer{
+    background-color: #fff;
+}
+.card-footer h6{
+    margin: 0
+}
+.save{
+    background-color: #2492d1;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
+/*********************testimonial section end********************/
+
+
+/*******************footer-header start *******************/
+
+.security h3{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.security h3:before{
+    content: "";
+    width: 150px;
+    height: 4px;
+    background: #0e092b;
+    border-top: 1px solid #0e092b;
+    border-bottom: 2px solid #0e092b;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+
+.security h3:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 7px;
+    -ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+}
+
+.security{
+    background: #eee;
+}
+.security .fab, .security .fas{
+    color: #0e092b;
+}
+
+footer{
+    padding: 25px 0 0 10px;
+    background: #0e092b;
+    color: #fff;
+}
+.social a .fa-twitter-square{
+    color: #00b8ec;
+}
+.col-2 .fa-instagram{
+    background: #ff006c;
+    color: #fff;
+    padding: 5px 6px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+.social-icon{
+    display: inline;
+    margin:5px;
+}
+.social-icon .fa-instagram{
+    color: #ff006c;
+}
+
+/*******************footer-header end *******************/
